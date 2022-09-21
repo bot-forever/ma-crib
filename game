@@ -1,1 +1,11 @@
+age = 16
+average_grade = 15
 
+if average_grade < 0 or average_grade > 10:
+    print('Thats not funny')
+if average_grade < 6:
+    print('Sorry, not accepted')
+elif average_grade < 9: 
+    print('Congrats, but you have to pay...')
+else:
+    print('Congrats, you dont have to pay')
